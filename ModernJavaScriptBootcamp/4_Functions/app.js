@@ -26,3 +26,28 @@
 // function divide(a, b) {
 //   console.log(a / b);
 // }
+// function add(x, y) {
+//   return x + y
+// }
+// const sum = add(5, 6)
+// 
+// function isPurple(color) {
+//   if (color.toLowerCase() === 'purple') {
+//     return true;
+//   }
+//   else {
+//     return false
+//   }
+// }
+
+function isPurple(color) {
+ return color.toLowerCase() === 'purple'
+}
+function containsPurple(arr) {
+  for (let color of arr) {
+    if (color === 'purple' || color === 'magenta') {
+      return true
+    }
+  }
+  return false
+}
