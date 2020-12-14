@@ -87,12 +87,35 @@
 //   return true;
 // }
 
+// function getCard() {
+//   const values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'K', 'Q', 'A']
+//   const valIdx = Math.floor(Math.random() * values.length) + 1
+//   const value = values[valIdx]
+//   const suits = ['clubs', 'spades', 'hearts', 'diamonds']
+//   const suitIdx = Math.floor(Math.random() * suits.length) + 1
+//   const suit = suits[suitIdx]
+//   return {value:value,suit:suit}
+
+  
+// }
+
+function pick(arr) {
+  //return random element in arr
+  const idx = Math.floor(Math.random() * arr.length);
+  return arr[idx];
+}
 function getCard() {
   const values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'K', 'Q', 'A']
-  const idx = Math.floor(Math.random() * values.length) + 1
-  return idx;
+  
+  // const value = pick(values)
+  const suits = ['clubs', 'spades', 'hearts', 'diamonds']
+
+  // const suit = pick(suits)
+  return {value:pick(values),suit:pick(suits)}
+
   
 }
+
 
 for (let i = 0; i < 10; i++){
   console.log(getCard())
