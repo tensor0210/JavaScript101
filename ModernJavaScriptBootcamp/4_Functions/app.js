@@ -40,14 +40,27 @@
 //   }
 // }
 
-function isPurple(color) {
- return color.toLowerCase() === 'purple'
-}
-function containsPurple(arr) {
-  for (let color of arr) {
-    if (color === 'purple' || color === 'magenta') {
-      return true
-    }
+// function isPurple(color) {
+//  return color.toLowerCase() === 'purple'
+// }
+// function containsPurple(arr) {
+//   for (let color of arr) {
+//     if (color === 'purple' || color === 'magenta') {
+//       return true
+//     }
+//   }
+//   return false
+// }
+function isValidPassword(password, username) {
+  const len = password.length >= 8
+  const space = password.indexOf(' ') !== -1
+  const containsUsername = password.indexOf(username)
+  if (len && space && containsUsername) {
+    return true
   }
   return false
+  
 }
+
+
+console.log(isValidPassword('rockstar12345','vidit0210'))
