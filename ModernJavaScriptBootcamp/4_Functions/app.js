@@ -51,16 +51,18 @@
 //   }
 //   return false
 // }
-function isValidPassword(password, username) {
-  const len = password.length >= 8
-  const space = password.indexOf(' ') !== -1
-  const containsUsername = password.indexOf(username)
-  if (len && space && containsUsername) {
-    return true
-  }
-  return false
+// function isValidPassword(password, username) {
+//   const len = password.length >= 8
+//   const space = password.indexOf(' ') !== -1
+//   const containsUsername = password.indexOf(username) !==-1
+//   if (len && space && containsUsername) {
+//     return true
+//   }
+//   return false
   
-}
+// }
 
 
-console.log(isValidPassword('rockstar12345','vidit0210'))
+// console.log(isValidPassword('rockstar12345','vidit0210'))
+
+//Average
