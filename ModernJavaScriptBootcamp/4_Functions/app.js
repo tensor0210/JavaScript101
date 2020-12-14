@@ -6,13 +6,23 @@
 // }
 
 //Generating Dice roll
-function rollDie() {
-  let roll = Math.floor(Math.random() * 6) + 1
-  console.log(`Rolled ${roll}`)
-}
-// rollDie()
+// function rollDie() {
+//   let roll = Math.floor(Math.random() * 6) + 1
+//   console.log(`Rolled ${roll}`)
+// }
+// // rollDie()
 
-function greet(name) {
-  console.log(` Hey ${name}`)
-}
-greet('Vidit')
+// function greet(name) {
+//   console.log(` Hey ${name}`)
+// }
+// greet('Vidit')
+
+// function square(num) {
+//   console.log(num * num)
+// }
+// function sum(x, y) {
+//   console.log(x+y)
+// }
+// function divide(a, b) {
+//   console.log(a / b);
+// }
