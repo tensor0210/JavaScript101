@@ -76,14 +76,24 @@
 // }
 // console.log(avg([0,50]))
 
-function isPangram(sentence) {
-  let sentence = sentence.toLowerCase()
-  let str = 'qwertyuioplkjhgfdsamnbvcxz'
-  for (let char of str) {
-    if (sentence.indexOf('char') === -1) {
-      return false
-    }
-  }
-  return true;
+// function isPangram(sentence) {
+//   let sentence = sentence.toLowerCase()
+//   let str = 'qwertyuioplkjhgfdsamnbvcxz'
+//   for (let char of str) {
+//     if (sentence.indexOf('char') === -1) {
+//       return false
+//     }
+//   }
+//   return true;
+// }
+
+function getCard() {
+  const values = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'K', 'Q', 'A']
+  const idx = Math.floor(Math.random() * values.length) + 1
+  return idx;
   
+}
+
+for (let i = 0; i < 10; i++){
+  console.log(getCard())
 }
