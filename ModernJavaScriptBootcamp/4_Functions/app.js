@@ -76,6 +76,14 @@
 // }
 // console.log(avg([0,50]))
 
-function pangram(sentence) {
+function isPangram(sentence) {
+  let sentence = sentence.toLowerCase()
+  let str = 'qwertyuioplkjhgfdsamnbvcxz'
+  for (let char of str) {
+    if (sentence.indexOf('char') === -1) {
+      return false
+    }
+  }
+  return true;
   
 }
