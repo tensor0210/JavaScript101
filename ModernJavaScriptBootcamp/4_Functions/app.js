@@ -66,12 +66,16 @@
 // console.log(isValidPassword('rockstar12345','vidit0210'))
 
 //Average
-function avg(arr) {
-  let total = 0
-  for (num of arr) {
-    total += num
-  }
-  let result = total / arr.length;
-  return result
+// function avg(arr) {
+//   let total = 0
+//   for (num of arr) {
+//     total += num
+//   }
+//   let result = total / arr.length;
+//   return result
+// }
+// console.log(avg([0,50]))
+
+function pangram(sentence) {
+  
 }
-console.log(avg([0,50]))
