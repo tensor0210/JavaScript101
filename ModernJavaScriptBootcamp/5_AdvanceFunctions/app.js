@@ -7,13 +7,24 @@ let animals = ['grizzly bear', 'panda bear', 'spectacled bear']
 //   console.log(i,animals[i])
 // }
 // console.log(i)
-function doubleArr(arr) {
-  const result =[]
-  for (let num of arr) {
-    let double = num * 2;
-    result.push(double)
-  }
-  return result
-}
+// function doubleArr(arr) {
+//   const result =[]
+//   for (let num of arr) {
+//     let double = num * 2;
+//     result.push(double)
+//   }
+//   return result
+// }
 
-console.log(doubleArr([1,2,3]))
+// console.log(doubleArr([1,2,3]))
+
+// function outer() {
+//   let movie = 'Amadeus'
+//   function inner() {
+//     console.log(movie.toUpperCase())
+//   }
+//   inner()
+// }
+function expression() {
+  
+}
