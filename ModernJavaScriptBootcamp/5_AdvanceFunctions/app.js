@@ -1,4 +1,3 @@
-let animals = ['grizzly bear', 'panda bear', 'spectacled bear']
 // for (var i = 0; i < animals.length; i++){
 //   console.log(i,animals[i])
 // }
@@ -25,6 +24,8 @@ let animals = ['grizzly bear', 'panda bear', 'spectacled bear']
 //   }
 //   inner()
 // }
-function expression() {
-  
+
+const sum = function (x, y) {
+  return x + y;
 }
+console.log(sum(1,3))
