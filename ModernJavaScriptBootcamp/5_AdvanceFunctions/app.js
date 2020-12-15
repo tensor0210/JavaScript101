@@ -73,3 +73,17 @@
   
 // }
 // pickOne(cry,rage)
+
+function multiplyBy(num) {
+  return function (x) {
+    return x * num;
+  }
+}
+
+const triple = multiplyBy(3);
+let res = triple(6)
+console.log(res)
+
+const double = multiplyBy(2)
+let res2 = double(2)
+console.log(res2)
