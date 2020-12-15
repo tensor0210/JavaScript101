@@ -110,3 +110,9 @@
 // const isNiceWeather = makeBetweenFunc(60, 79)
 // console.log(isNiceWeather(62))
 
+// function grumpus() {
+//   console.log("Hello")
+// }
+
+// setTimeout(grumpus,5000)
+
