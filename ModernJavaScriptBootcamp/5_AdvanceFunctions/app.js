@@ -74,16 +74,39 @@
 // }
 // pickOne(cry,rage)
 
-function multiplyBy(num) {
-  return function (x) {
-    return x * num;
-  }
-}
+// function multiplyBy(num) {
+//   return function (x) {
+//     return x * num;
+//   }
+// }
 
-const triple = multiplyBy(3);
-let res = triple(6)
-console.log(res)
+// const triple = multiplyBy(3);
+// let res = triple(6)
+// console.log(res)
 
-const double = multiplyBy(2)
-let res2 = double(2)
-console.log(res2)
+// const double = multiplyBy(2)
+// let res2 = double(2)
+// console.log(res2)
+
+// const halve = multiplyBy(0.5)
+// let val = halve(4)
+// console.log(val)
+
+// function makeBetweenFunc(x, y) {
+//   return function (num) {
+//     return (num >= x && num <= y) 
+//   }
+// }
+
+// const isChild = makeBetweenFunc(0, 18)
+// // console.log(isChild(99))
+// // console.log(isChild(22))
+// // console.log(isChild(5))
+
+// const isNineties = makeBetweenFunc(1990, 2000)
+// console.log(isNineties(1999))
+// console.log(isNineties(2001))
+
+// const isNiceWeather = makeBetweenFunc(60, 79)
+// console.log(isNiceWeather(62))
+
