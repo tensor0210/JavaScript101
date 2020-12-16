@@ -128,3 +128,9 @@ console.log(Boolean(NaN));
 console.log(Boolean(''));
 console.log(Boolean('Vidit'));
 console.log(Boolean({}));
+let height = 164;
+if (height) {
+	console.log('Height is defined');
+} else {
+	console.log('Height is not defined');
+}
