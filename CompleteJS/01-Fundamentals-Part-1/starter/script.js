@@ -106,3 +106,25 @@
 // 	century = 21;
 // }
 // console.log(`Century ${century}`);
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number('Vidit'));
+// console.log(typeof NaN);
+// console.log(String(23));
+//type coercion
+/**
+ * 5 Falsy Values 
+ * 0
+ * '' Empty String
+ * undefined
+ * null
+ * NaN
+ */
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(null));
+console.log(Boolean(NaN));
+console.log(Boolean(''));
+console.log(Boolean('Vidit'));
+console.log(Boolean({}));
