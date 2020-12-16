@@ -88,21 +88,21 @@
 // console.log(`just a regular string...`);
 // console.log('String  with \n\n new lines');
 
-const age = 15;
-const legalAge = 18;
-const isOldEnough = age >= 18;
-if (isOldEnough) {
-	console.log('Eligible for driving 🚗 ');
-} else {
-	const yearsLeft = 18 - age;
-	console.log('❌', yearsLeft);
-}
+// const age = 15;
+// const legalAge = 18;
+// const isOldEnough = age >= 18;
+// if (isOldEnough) {
+// 	console.log('Eligible for driving 🚗 ');
+// } else {
+// 	const yearsLeft = 18 - age;
+// 	console.log('❌', yearsLeft);
+// }
 
-const birthYear = 1991;
-let century;
-if (birthYear <= 2000) {
-	century = 20;
-} else {
-	century = 21;
-}
-console.log(`Century ${century}`);
+// const birthYear = 1991;
+// let century;
+// if (birthYear <= 2000) {
+// 	century = 20;
+// } else {
+// 	century = 21;
+// }
+// console.log(`Century ${century}`);
