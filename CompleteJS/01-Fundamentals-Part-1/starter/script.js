@@ -121,16 +121,20 @@
  * NaN
  */
 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean(null));
-console.log(Boolean(NaN));
-console.log(Boolean(''));
-console.log(Boolean('Vidit'));
-console.log(Boolean({}));
-let height = 164;
-if (height) {
-	console.log('Height is defined');
-} else {
-	console.log('Height is not defined');
-}
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean(null));
+// console.log(Boolean(NaN));
+// console.log(Boolean(''));
+// console.log(Boolean('Vidit'));
+// console.log(Boolean({}));
+// let height = 164;
+// if (height) {
+// 	console.log('Height is defined');
+// } else {
+// 	console.log('Height is not defined');
+// }
+
+//Loose Coer
+const favourite = Number(prompt('Whats your Favourite Number?'));
+console.log(typeof favourite);
